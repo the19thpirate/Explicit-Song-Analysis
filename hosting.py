@@ -18,7 +18,7 @@ import streamlit as st
 #### Titling and Subtitling
 
 st.title("""
-Song lyrics analysis
+Explicit Song lyrics analysis
 """)
 st.text("""Made by Rohit Venkatesan & Mikhail Martins""")
 st.subheader("This Application will analyze the song lyrics and give the user a recommendation.")
