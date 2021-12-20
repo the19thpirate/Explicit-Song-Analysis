@@ -9,6 +9,7 @@ from lyricsgenius import Genius
 import pandas as pd
 from textblob import TextBlob as tb
 import nltk
+from nltk.corpus import stopwords
 import string
 import re
 
@@ -32,7 +33,7 @@ song_name = st.text_input('Enter the Song Name: ')
 
 
 ## Stopwords/Words Corpus
-from nltk.corpus import stopwords
+nltk.download('stopwords')
 e_words = ['fuck', 'asshole', 'shit', 'dick', 'dickhead', 'pussy', 'sex','sexy','role-play','roleplay', 'bitch', 'cunt'
         ,'bloody', 'bugger', 'bastard', 'motherfucker', 'shag', 'wanker', 'wank', 'bollocks',
         'whores', 'ass', 'weed', 'smoker','fucking','smoking', 'twat', 'twit', 'hoe', 'wet-ass', 'badass',
