@@ -42,10 +42,8 @@ e_words = ['fuck', 'asshole', 'shit', 'dick', 'dickhead', 'pussy', 'sex','sexy',
         'piss', 'bollocks', 'cocksucker', 'effing', 'nigga', 'twat', 'fatherfucker', 'babe', 'pussysweat', 'creampie', 'cum', 'cumshot', 'facial',
         'stripper', 'twerking', 'bootyshake', 'booty', 'bootyhole', 'asshole', 'fatass', 'phatass', 'anal', 'hentai']
 
-stopwords = stopwords.words('English') + list(string.punctuation)
-new_words = ['oh', "i'll", 'take', 'another', 'get', 'near', "i'm", "there's", 'wanna', 'yeah', 'need', 'like', 'got', 'want',
-            'see', 'find', 'tell', '(yeah)', 'make', "that's", 'im', 'ooh', 'uh', 'ye', 'ah', 'ha', 'duh']
-stopwords.extend(new_words)
+text_file = open("stopwords.txt", 'r+')
+stopwords = text_file.read()
 
 
 ### Tokenization
