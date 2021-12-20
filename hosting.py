@@ -40,7 +40,7 @@ e_words = ['fuck', 'asshole', 'shit', 'dick', 'dickhead', 'pussy', 'sex','sexy',
         ,'bloody', 'bugger', 'bastard', 'motherfucker', 'shag', 'wanker', 'wank', 'bollocks',
         'whores', 'ass', 'weed', 'smoker','fucking','smoking', 'twat', 'twit', 'hoe', 'wet-ass', 'badass',
         'piss', 'bollocks', 'cocksucker', 'effing', 'nigga', 'twat', 'fatherfucker', 'babe', 'pussysweat', 'creampie', 'cum', 'cumshot', 'facial',
-        'stripper', 'twerking', 'bootyshake', 'booty', 'bootyhole', 'asshole', 'fatass', 'phatass', 'anal', 'hentai']
+        'stripper', 'twerking', 'bootyshake', 'booty', 'bootyhole', 'asshole', 'fatass', 'phatass', 'anal', 'hentai', 'rape', 'molest', 'molesting','gangrape']
 
 text_file = open("stopwords.txt", 'r+')
 stopwords = text_file.read()
