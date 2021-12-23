@@ -1,5 +1,5 @@
 # Explicit Song Analysis
-
+##### (Link to application at the bottom)
 ![Dee Snyder](https://github.com/the19thpirate/Explicit-Song-Analysis/blob/main/Dee%20snider.jpg)
 
 ### Idea behind the project:
@@ -49,3 +49,5 @@ what the song was about and how Tipper Gore had interpreted it differently.
     - A song which is highly subjective delivers a biased idea which is not healthy for the mind.
   - The Subjectivity score for this song is 51% which suggests a balance which is **really great**.
 
+#### Link to Application:
+[Explicit Song Lyrics Detection/Analyser](https://share.streamlit.io/the19thpirate/explicit-song-analysis/main/hosting.py)
